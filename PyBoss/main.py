@@ -47,6 +47,3 @@ with open('employee_data.csv', 'r') as in_file:
         for row in clean_data_new1:
             line = line.__add__(str(row).replace('\'','', -1).replace('[','', -1).replace(']', '', -1).strip() + '\n')
         out_file.write(line)
-
-    out_file.close()
-in_file.close()

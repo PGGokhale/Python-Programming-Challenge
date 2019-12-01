@@ -65,8 +65,7 @@ with open(filename_in, "r") as in_file:
         #printing the result on the terminal
         print(line)
 
-    out_file.close()
-in_file.close()
+
   
 
 

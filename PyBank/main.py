@@ -66,5 +66,3 @@ with open(filename_in, "r") as in_file:
         
         print(line)
         out_file.write(line)
-    out_file.close()
-in_file.close()
