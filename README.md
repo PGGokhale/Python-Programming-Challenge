@@ -16,18 +16,23 @@ The folder PyBank consists of files "main.py" and "Financial_Analysis.txt". The 
 ## PyBoss
 This task consists of creating a Python script which will be able to convert employee records from the old format to the required format. The script will need to do the following:
 
-Import the employee_data.csv file, which currently holds employee records like the below:
+* Import the employee_data.csv file, which currently holds employee records like the below:
+
+```csv
 Emp ID,Name,DOB,SSN,State
 214,Sarah Simpson,1985-12-04,282-01-8166,Florida
 15,Samantha Lara,1993-09-08,848-80-7526,Colorado
 411,Stacy Charles,1957-12-20,658-75-8526,Pennsylvania
+```
 
-Then convert and export the data to use the following format instead:
+* Then convert and export the data to use the following format instead:
+
+```csv
 Emp ID,First Name,Last Name,DOB,SSN,State
 214,Sarah,Simpson,12/04/1985,***-**-8166,FL
 15,Samantha,Lara,09/08/1993,***-**-7526,CO
 411,Stacy,Charles,12/20/1957,***-**-8526,PA
-
+```
 
 PyBoss folder consist of files "main.py", "employee_data.csv", "us_state_abbrev.py" and "employee_data_new.csv". The main.py is the python code. It reads the employee_data.csv, reformats it and writes it in employee_data_new.csv. While doing this it uses a dictionary from us_state_abbrev.py
     
