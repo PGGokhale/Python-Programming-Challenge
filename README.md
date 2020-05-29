@@ -2,7 +2,7 @@
 This repository is to work on and submit python programming homework.
 This repository contains Python script for analyzing the financial records of a company. A set of financial data called budget_data.csv is given. The dataset is composed of two columns: Date and Profit/Losses. 
 
-* The task is to create a Python script that analyzes the records to calculate each of the following:
+The task is to create a Python script that analyzes the records to calculate each of the following:
 * The total number of months included in the dataset
 * The net total amount of "Profit/Losses" over the entire period
 * The average of the changes in "Profit/Losses" over the entire period
