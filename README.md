@@ -1,7 +1,14 @@
-# python-challenge
+# Python-challenge
 This repository is to work on and submit python programming homework.
+This repository contains Python script for analyzing the financial records of a company. A set of financial data called budget_data.csv is given. The dataset is composed of two columns: Date and Profit/Losses. 
 
-I have worked on all the four python homework challenges.
+* The task is to create a Python script that analyzes the records to calculate each of the following:
+* The total number of months included in the dataset
+* The net total amount of "Profit/Losses" over the entire period
+* The average of the changes in "Profit/Losses" over the entire period
+* The greatest increase in profits (date and amount) over the entire period
+* The greatest decrease in losses (date and amount) over the entire period
+
 This repository consist of four folders, namely 
 1. PyBank
     This folder consist of files "main.py" and "Financial_Analysis.txt". The main.py is the python code. When this code is executed it reads the "budget_data.csv" from the folder "Resources" which is inside PyBank folder. It generates the output "Financial_Analysis.txt" as well as prints the output on command prompt.
